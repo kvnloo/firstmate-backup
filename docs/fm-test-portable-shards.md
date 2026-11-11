@@ -20,7 +20,6 @@ Measure that script through the focused Git Bash runner rather than a portable s
 
 A timed-out shard may upload no artifact, so a complete green run is what keeps the slowest scripts measured in the shard that needs them most.
 
-The 2026-11-10 `tests/fm-watch-endpoint-retirement.test.sh` serial hint is a provisional local measurement of 30000 ms, above the slowest of three `bin/fm-test-run.sh` samples (26417-28446 ms) on a Linux x86_64 host, until the next CI refresh replaces it with an Ubuntu timing-artifact maximum.
 
 ## Parallel lanes
 
